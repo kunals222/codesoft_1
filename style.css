@@ -1,0 +1,52 @@
+.container{
+   
+    margin:0 87.5vh;
+    background-color: midnightblue;
+    border: 2px solid dodgerblue;
+    border-radius: 4px;
+    width: 280px;
+   
+}
+.row{
+    display:flex;
+    justify-content: center;
+    background-color: darkslateblue;
+    
+}
+button{
+    padding: 20px;
+    background-color: aqua;
+    color: blanchedalmond;
+    background-color: darkblue;
+    border: 2px solid blueviolet;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0.3px;
+    font-weight: 900;
+    font-size: larger;
+    width: 70px;
+    cursor: pointer;
+}
+
+.answer{
+    
+    height: 80px;
+    /* display: grid; */
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    background-color: black;
+    color:white;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+
+
+.head{
+    display: flex;
+    justify-content: center;
+    background-color:darkblue;
+    color: greenyellow;
+    font-family: math;
+}
